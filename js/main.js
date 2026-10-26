@@ -363,7 +363,7 @@ function initContactForm() {
       `Message:\n${messageInput.value}\n\n` +
       `Best regards,\n${nameInput.value}`
     );
-    const mailtoUri = `mailto:ssmeer1988@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoUri = `mailto:sshroff@andrew.cmu.edu?subject=${subject}&body=${body}`;
 
     // Simulate sending / Trigger mailto
     const submitBtn = form.querySelector('button[type="submit"]');
@@ -374,7 +374,7 @@ function initContactForm() {
     setTimeout(() => {
       submitBtn.innerHTML = originalText;
       submitBtn.disabled = false;
-      showToast('Inquiry drafted! Launching your email client to send to ssmeer1988@gmail.com.');
+      showToast('Inquiry drafted! Launching your email client to send to sshroff@andrew.cmu.edu.');
       form.reset();
       window.location.href = mailtoUri;
     }, 600);
@@ -407,7 +407,7 @@ function initClipboard() {
   copyButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      const textToCopy = btn.getAttribute('data-copy') || 'ssmeer1988@gmail.com';
+      const textToCopy = btn.getAttribute('data-copy') || 'sshroff@andrew.cmu.edu';
       navigator.clipboard.writeText(textToCopy).then(() => {
         showToast(`Copied ${textToCopy} to clipboard!`);
       }).catch(() => {

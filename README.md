@@ -18,7 +18,7 @@ Built with **pure HTML5, CSS3, and JavaScript** — zero external build steps, z
   - **Consulting Services**: 6 detailed service cards covering FEA, physics-informed machine learning (PINNs), tribology/contact mechanics, custom scientific software, and advisory.
   - **Projects & Research Portfolio**: Interactive category filter tabs (Machine Learning & Dynamics, Mechanics & Materials, Computational Simulation) with custom SVG technical diagrams.
   - **Interactive Deep-Dive Modal**: Clickable "View Details" modals with expanded technical methodology, engineering outcomes, and toolchains.
-  - **Contact & Inquiry System**: Direct contact info (`ssmeer1988@gmail.com`), one-click email copy button with toast notification, and an interactive project inquiry form that formats and launches inquiries directly.
+  - **Contact & Inquiry System**: Direct contact info (`sshroff@andrew.cmu.edu`), one-click email copy button with toast notification, and an interactive project inquiry form that formats and launches inquiries directly.
 - **Accessible & Fast**: Complete keyboard navigation, ARIA attributes, responsive mobile drawer menu, and zero external CDNs required.
 
 ---
@@ -61,7 +61,7 @@ Right-click `index.html` inside VS Code and select **"Open with Live Server"**.
 ## 🛠️ How to Customize
 
 - **Updating Contact Information**:
-  Search for `ssmeer1988@gmail.com` in `index.html` and `js/main.js` to change the email address or add phone/social links.
+  Search for `sshroff@andrew.cmu.edu` in `index.html` and `js/main.js` to change the email address or add phone/social links.
 - **Adding / Modifying Projects**:
   - Edit or add project cards in `index.html` under the `<section id="projects">` container.
   - To update deep-dive modal descriptions, edit the `projectData` object inside `js/main.js`.
